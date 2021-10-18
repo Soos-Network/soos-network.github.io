@@ -56,6 +56,7 @@ body {
   z-index: -1111;
 }
 
+
 /* Menü Kopfzeile - Ende */
 
 
@@ -81,6 +82,7 @@ body {
     padding: 20px;
   }
   .hide-menu-btn{
+    color: #333;
     position: absolute;
     top: 40px;
     right: 40px;
@@ -88,8 +90,33 @@ body {
   #chk:checked ~ .menu{
     right: 0;
   }
+
 }
+
 /* Großes Menü / Smartphone Menü - Ende */
+
+
+.en{
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: red;
+  min-width: 40px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: red;
+  font-size: 20px;
+}
+
+.de {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  border-style: solid;
+  border-color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: -5px;
+  border-left-color: red;
+}
 
 section {
   width: 100%;
@@ -119,7 +146,7 @@ section {
 
 footer {
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: #44bd20;
 }
 

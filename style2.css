@@ -48,3 +48,24 @@
   text-align: center;
   margin-top: 25px;
   }
+
+  .mc-ip {
+    text-align: center;
+    margin-top: 25px;
+    }
+
+@media screen and (max-width:800px) {
+  .bigbut {
+    visibility: hidden;
+  }
+
+  .mc-ip {
+    border-color: #000;
+    border-style: solid;
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+}
