@@ -155,3 +155,24 @@ footer {
   width: 150px;
 
 }
+
+.noscriptblock {
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  height: 200px;
+  position: absolute;
+  display: block;
+  margin-left: 50%;
+  margin-top: 20%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+@media screen and (max-width:800px) {
+  .noscriptblock {
+    transform: translate(-50%,-50%);
+    margin-left: 50%;
+    margin-top: 50%;
+    height: 400px;
+  }
