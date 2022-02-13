@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Errorsnake - Soos</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="720" height="480"></canvas>
+
+
+<script type="text/javascript">
+
+  let canvas = document.getElementById('canvas');
+  let ctx = canvas.getContext('2d');
+
+  draw();
+
+  function draw() {
+    ctx.fillStyle = 'black';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = 'white';
+    add(130, 150);
+    add(160, 150);
+    add(190, 150);
+    add(220, 150);
+
+    ctx.fillStyle = 'yellow';
+    add(290, 150);
+  }
+
+  function add(x, y) {
+    ctx.fillRect(x, y, 30, 30)
+  }
+
+  function gmaeLoop() {
+
+  }
+</script>
+
+  </body>
+</html>
