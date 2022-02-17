@@ -115,6 +115,19 @@ section {
   text-align: center;
 }
 
+.p404 {
+  margin-right: 2%;
+  min-width: 100px;
+  max-width: 1000px;
+  height: 300px;
+  font-size: 50px;
+  margin-left: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+
 .discord-container {
   color: white;
   font-size: 30px;
@@ -156,3 +169,4 @@ footer {
     margin-top: 50%;
     height: 400px;
   }
+}
